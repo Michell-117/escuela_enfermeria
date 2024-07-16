@@ -1,0 +1,20 @@
+{
+    "name": "sistemas3/escuela-enfermeria",
+    "description": "Proyecto escuela enfermeria",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michell Ruiz",
+            "email": "michell.ra47@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\": "database/",
+            "Router\\": "router/"
+        }
+    },
+    "require": {}
+}
